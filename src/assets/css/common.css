@@ -1,0 +1,28 @@
+body {
+  font-size: 14px;
+}
+
+:root {
+  --primary-color: #ff9854;
+  --van-search-left-icon-color: var(--primary-color) !important;
+  --theme-linear-gradient: linear-gradient(90deg, #fa8c1d, #fcaf3f);
+  --van-primary-color: var(--primary-color)
+}
+
+.bottom-line {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.left-line {
+  border-left: 1px solid #f9f9f9;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
